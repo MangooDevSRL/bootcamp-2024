@@ -33,12 +33,12 @@ public class Main {
             System.out.println("Son Dinstintos");
         }
 
-        SportCar sportCar = new SportCar();
+        SportCar sportCar = new SportCar(true);
 
         sportCar.setName("Nico");
         sportCar.setColor("Verde");
         sportCar.setCantidadDePuertas(2);
-        sportCar.setAt(true);
+//        sportCar.setAt(true);
 
         System.out.println(sportCar);
 
