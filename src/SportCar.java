@@ -6,6 +6,11 @@ public class SportCar extends Car{
         this.at = at;
     }
 
+    public SportCar(String name, String color, Boolean at) {
+        super(name, color);
+        this.at = at;
+    }
+
     public void setAt(Boolean at) {
         this.at = at;
     }
